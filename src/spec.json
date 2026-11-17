@@ -1,0 +1,205 @@
+{
+  "title": "Gestione manutenzione del verde pubblico",
+  "description": "Prototipo per registrare, assegnare e monitorare le richieste di manutenzione del verde, con priorità e quartiere. Dati e organizzazioni sono inventati.",
+  "accent": "emerald",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Stato delle richieste e carico degli interventi per priorità e quartiere.",
+      "metrics": [
+        {
+          "label": "Richieste aperte",
+          "value": "18"
+        },
+        {
+          "label": "In attesa di assegnazione",
+          "value": "5"
+        },
+        {
+          "label": "Interventi pianificati",
+          "value": "7"
+        },
+        {
+          "label": "Completate nel mese",
+          "value": "24"
+        }
+      ],
+      "columns": [
+        "Codice",
+        "Segnalazione",
+        "Quartiere",
+        "Priorità",
+        "Stato",
+        "Data richiesta"
+      ],
+      "rows": [
+        [
+          "VER-051",
+          "Potatura di alberi lungo il vialetto",
+          "Lumo",
+          "Alta",
+          "Pianificata",
+          "12/05/2026"
+        ],
+        [
+          "VER-052",
+          "Ripristino di una siepe danneggiata",
+          "Vela",
+          "Media",
+          "Da assegnare",
+          "13/05/2026"
+        ],
+        [
+          "VER-053",
+          "Rimozione di rami caduti",
+          "Nubi",
+          "Urgente",
+          "In lavorazione",
+          "14/05/2026"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "richieste",
+      "title": "Richieste",
+      "description": "Consulta e filtra le segnalazioni. La ricerca e i filtri sono controlli di consultazione, separati dal modulo di inserimento.",
+      "metrics": [
+        {
+          "label": "Totale richieste",
+          "value": "49"
+        },
+        {
+          "label": "Priorità urgente",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Codice",
+        "Segnalazione",
+        "Quartiere",
+        "Priorità",
+        "Stato",
+        "Data richiesta"
+      ],
+      "rows": [
+        [
+          "VER-051",
+          "Potatura di alberi lungo il vialetto",
+          "Lumo",
+          "Alta",
+          "Pianificata",
+          "12/05/2026"
+        ],
+        [
+          "VER-052",
+          "Ripristino di una siepe danneggiata",
+          "Vela",
+          "Media",
+          "Da assegnare",
+          "13/05/2026"
+        ],
+        [
+          "VER-053",
+          "Rimozione di rami caduti",
+          "Nubi",
+          "Urgente",
+          "In lavorazione",
+          "14/05/2026"
+        ],
+        [
+          "VER-054",
+          "Controllo di un impianto di irrigazione",
+          "Lumo",
+          "Bassa",
+          "Da assegnare",
+          "15/05/2026"
+        ],
+        [
+          "VER-055",
+          "Sfalcio dell'area verde centrale",
+          "Vela",
+          "Media",
+          "Completata",
+          "16/05/2026"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-richiesta",
+      "title": "Nuova richiesta",
+      "description": "Registra una richiesta di manutenzione con i dati essenziali e la priorità assegnata.",
+      "metrics": [],
+      "columns": [
+        "Segnalazione",
+        "Quartiere",
+        "Priorità",
+        "Stato",
+        "Data richiesta"
+      ],
+      "rows": [],
+      "form": [
+        "Segnalazione",
+        "Quartiere",
+        "Priorità",
+        "Stato",
+        "Data richiesta"
+      ]
+    },
+    {
+      "id": "quartieri",
+      "title": "Interventi per quartiere",
+      "description": "Riepilogo delle attività e degli incarichi inventati associati ai quartieri.",
+      "metrics": [
+        {
+          "label": "Quartieri coinvolti",
+          "value": "3"
+        },
+        {
+          "label": "Squadre inventate",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Quartiere",
+        "Squadra",
+        "Richieste aperte",
+        "Priorità più alta",
+        "Prossimo intervento"
+      ],
+      "rows": [
+        [
+          "Lumo",
+          "Squadra Ginepro",
+          "6",
+          "Urgente",
+          "Rimozione di rami caduti"
+        ],
+        [
+          "Vela",
+          "Squadra Foglia",
+          "8",
+          "Alta",
+          "Potatura di alberi lungo il vialetto"
+        ],
+        [
+          "Nubi",
+          "Squadra Rugiada",
+          "4",
+          "Media",
+          "Controllo delle aiuole"
+        ],
+        [
+          "Lumo",
+          "Squadra Fronda",
+          "3",
+          "Media",
+          "Verifica dell'irrigazione"
+        ]
+      ],
+      "form": []
+    }
+  ]
+}
